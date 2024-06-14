@@ -1,0 +1,118 @@
+.A{
+  position: absolute;
+  background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+  height:100%;
+  width: 100%;
+}
+ul{
+  overflow: hidden;
+  list-style: none;
+  font-size: 2em;
+}
+li a{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  display: block;
+  text-align: center;
+  color:white;
+  text-decoration: none;
+  padding: 5px 30px;
+  transition: 0.2s;
+}
+li a:hover{
+  background-color: white;
+  color: rgb(7, 7, 67);
+  border-radius: 20px;
+}
+.ff{
+  width: 200px;
+  margin-top: 3px;
+  float: left;
+  color: rgb(171, 235, 223);
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+li{
+  float:right;
+}
+.content{
+  display: flex;
+}
+#Aa{
+  height:40px;
+  margin-left: 90px;
+  color:white;
+  font-size:100px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+#Aaa{
+  margin-left: 120px;
+  width:400px;
+  text-align: center;
+  color:white;
+  font-size: 25px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+#Gg{
+  font-size: 40px;
+}
+#Cc{
+  color: crimson;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size:20px ;
+  margin-top: 100px;
+  margin-left: 70px;
+  height: 200px;
+  background-color: aliceblue;
+  width:150px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 350;
+  transition: 1s;
+}
+#Dd{
+  color: darkgoldenrod;
+  transition: 1s;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 30px;
+  margin-top: 70px;
+  margin-left: 70px;
+  height: 250px;
+  background-color: aliceblue;
+  width:190px;
+  border-radius: 10px;
+  text-align: center;
+}
+#Ee{
+  transition: 1s;
+  color: crimson;
+  font-size: 25px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin-top: 100px;
+  margin-left: 70px;
+  height: 200px;
+  background-color: aliceblue;
+  width:150px;
+  border-radius: 10px;
+  text-align: center;
+}
+#Cc:hover,#Ee:hover{
+  height: 210px;
+  width: 160px;
+}
+#Dd:hover{
+  height:260px;
+  width: 200px;
+}
